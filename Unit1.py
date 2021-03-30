@@ -2,7 +2,7 @@
 from bs4 import BeautifulSoup
 
 try:
-    with open('D:\Projects\Python\LearningPython\Web Scraping\Beautiful Soup\main.html', 'r') as html_file:
+    with open('main.html', 'r') as html_file:
         content = html_file.read()
         # print(content)
         
